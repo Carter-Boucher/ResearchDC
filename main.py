@@ -2,8 +2,8 @@ import streamlit as st
 import pandas as pd
 import numpy as np
 
-st.title('My first app')
-st.write("Here's our first attempt at using data to create a table:")
+st.title('Raw Data Collection Project')
+st.write("Carter Boucher")
 
 DATE_COLUMN = 'date/time'
 DATA_URL = ('https://s3-us-west-2.amazonaws.com/'
