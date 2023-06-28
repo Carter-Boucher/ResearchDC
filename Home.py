@@ -104,4 +104,12 @@ if st.button('Go to page "Plotting Demo"'):
     )
     st.write
 
+#creates a text input
+title = st.text_input('Movie title')
+st.write('The current movie title is', title)
 
+
+
+filer = st.text_input("hour to filter")
+filtered_data = data[data[DATE_COLUMN].dt.hour == filer]
+st.write(filtered_data)
